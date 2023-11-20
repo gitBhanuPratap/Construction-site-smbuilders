@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400&family=Epilogue:wght@200;300;400&family=Fira+Sans:wght@500;600;700&family=Lato:wght@300;400;700&family=PT+Sans+Caption:wght@400;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+.btn-primary {
+    @apply bg-blue-500 text-white py-2 px-4 rounded;
+  }
+
+.heading-font{
+  @apply font-fira-sans font-fira-sans-bold p-3 md:text-4xl sm:text-3xl text-2xl text-[#374568] flex justify-center text-center;
+}
+
+.body-font{
+  @apply font-epilogue font-epilogue-regular text-xl lg:text-2xl text-gray-800;
+}
+
+.tag-font{
+  @apply font-encode-sans font-encode-regular flex justify-center text-center text-white text-2xl md:text-xl;
+}
+.btn-font{
+  @apply font-encode-sans font-encode-light flex justify-center text-center text-white text-xl md:text-2xl;
+}
+.form-font{
+  @apply font-encode-sans font-encode-regular text-xl md:text-xl text-gray-700;
+}
+
+.herosection{
+  padding-top: '56.25%';
+}
